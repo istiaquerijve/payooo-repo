@@ -13,7 +13,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="bg-[#f4f5f7] h-[100vh] max-w-lg mx-auto">
-    <main>
+    
     <div class="bg-white rounded-b-2xl">
          <header>
             <div class="flex justify-between items-center border-b-1 border-gray-400 p-3.5">
@@ -38,7 +38,7 @@
          </section>
 
          <section>
-            <div class="mt-10 grid grid-cols-3 gap-3 mb-20 p-5">
+            <div class="mt-10 grid grid-cols-3 gap-3 mb-5 p-5">
                 <div class="text-center border-1 border-gray-400 rounded-2xl p-3">
                     <img class="mx-auto" src="./assets/wallet1.png" alt="">
                     <p>Add Money</p>
@@ -66,6 +66,40 @@
             </div>
          </section>
     </div>
-    </main>
+
+   <section>
+      <div class="all-from-section">
+        <!-- add money -->
+         <div class="">
+            <h1>Add Money</h1>
+            <form action="" class="bg-white rounded-2xl p-8">
+                <div>
+                    <h3 class="font-semibold">Select A Bank</h3>
+                    <select class="select input bg-[#f4f5f7] mt-3 rounded-3xl w-full">
+                     <option disabled selected>Select A Bank</option>
+                      <option>Sonali</option>
+                      <option>Rupalii</option>
+                      <option>Dach</option>
+                      <option>IFIC</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="font-semibold" for="">Bank Account Number</label><br>
+                    <input id="" type="text" placeholder="Enter 11 digit account number" class="input bg-[#f4f5f7] mt-3 rounded-3xl w-full" /><br>
+                </div>
+                <div>
+                    <label class="font-semibold" for="">Amount to Add</label><br>
+                    <input id="" type="text" placeholder="Add Amount to withdraw" class="input bg-[#f4f5f7] mt-3 rounded-3xl w-full" /><br>
+                </div>
+                <div>
+                    <label class="font-semibold" for="">Pin Number</label><br>
+                    <input id="" type="text" placeholder="Enter 4 digit pin number  " class="input bg-[#f4f5f7] mt-3 rounded-3xl w-full" /><br>
+                </div>
+                <button type="button" class="btn text-white bg-[#0874F2] mt-5 w-full rounded-3xl" id="loginBtn">Add Money</button>
+            </form>
+         </div>
+      </div>
+   </section>
+     
 </body>
 </html>
